@@ -1007,7 +1007,7 @@ app-admin/mongosh-bin 2.0.2 2.3.4: The MongoDB Shell
 app-admin/monit 5.34.0 5.34.3 5.34.4: Monitoring and managing daemons or similar programs running on a Unix system
 app-admin/mtail 3.0.0_rc36: A tool for extracting metrics from application logs
 app-admin/multilog-watch 1.12-r1: Watches a multilog file for irregularities
-app-admin/needrestart 3.6 3.6-r1 3.7 3.8 3.9 9999: Restart daemons after library updates
+app-admin/needrestart 3.6 3.6-r1 3.7 3.8 3.9 3.10 9999: Restart daemons after library updates
 app-admin/ngxtop 0.0.3_pre141201-r3: real-time metrics for nginx server (and others)
 app-admin/ocsinventory-agent 2.10.0: Hardware and software inventory tool (client)
 app-admin/op-cli-bin 2.23.0: command line interface for the 1password password manager
@@ -1846,7 +1846,7 @@ app-editors/vim 9.0.2167 9.1.0366 9.1.0470 9.1.0794 9999: Vim, an improved vi-st
 app-editors/vim-core 9.0.2167 9.0.2167-r1 9.1.0366 9.1.0366-r1 9.1.0470 9.1.0794 9999: vim and gvim shared files
 app-editors/vis 0.9 0.9-r1 9999: Modern, legacy free, simple yet efficient vim-like editor
 app-editors/vscode 1.98.2 1.99.0: Multiplatform Visual Studio Code from Microsoft
-app-editors/vscodium 1.98.2.25072: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
+app-editors/vscodium 1.98.2.25072 1.99.02289: A community-driven, freely-licensed binary distribution of Microsoft's VSCode
 app-editors/wily 1.0-r2 1.0-r3: An emulation of ACME, Plan9's hybrid window system, shell and editor
 app-editors/wxhexeditor 0.24-r3: A cross-platform hex editor designed specially for large files
 app-editors/xemacs 21.5.35-r8 21.5.9999: highly customizable open source text editor and application development system
@@ -2162,7 +2162,7 @@ app-emacs/ocaml-mode 4.05.0: Emacs mode for OCaml
 app-emacs/orderless 1.3 1.4: Completion style that matches multiple regexps in any order
 app-emacs/org-appear 0.3.1: Toggle Org mode element visibility upon entering and leaving
 app-emacs/org-contrib 0.5 0.6: Contributed packages to Org
-app-emacs/org-mode 9.7.22 9.7.23 9.7.24 9.7.25 9.7.26 9.7.27 9999: An Emacs mode for notes and project planning
+app-emacs/org-mode 9.7.23 9.7.24 9.7.25 9.7.26 9.7.27 9999: An Emacs mode for notes and project planning
 app-emacs/org-modern 1.6 1.7 9999: Modern style for your GNU Emacs Org buffers
 app-emacs/org-roam 2.2.2-r3 9999: Rudimentary Roam replica with Org-mode
 app-emacs/org-static-blog 1.6.0 1.7.0 9999: Static site generator using Emacs's org-mode
@@ -2331,7 +2331,7 @@ app-emulation/crossover-bin 22.1.1 23.6.0 24.0.0 24.0.4: Commercial version of a
 app-emulation/dinero 4.7-r1: Cache simulator
 app-emulation/diskimage-builder 3.32.0 3.33.0 9999: Golden Disk Image builder
 app-emulation/dosemu 1.4.1_pre20130107-r6: DOS Emulator
-app-emulation/dxvk 2.3.1-r1 2.4.1 2.5.3 2.6 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
+app-emulation/dxvk 2.3.1-r1 2.4.1 2.5.3 2.6 2.6.1 9999: Vulkan-based implementation of D3D9, D3D10 and D3D11 for Linux / Wine
 app-emulation/dynamips 0.2.23: Cisco 7200/3600 Simulator
 app-emulation/faudio 25.02 25.03 25.04: Accuracy-focused XAudio reimplementation for open platforms
 app-emulation/firecracker-bin 1.10.1: Secure and fast microVMs for serverless computing (static build)
@@ -2622,7 +2622,7 @@ app-metrics/mysqld_exporter 0.14.0 0.14.0_p20221209 0.14.0_p20230328: Prometheus
 app-metrics/nftables-exporter 0.2.7 0.3.1: prometheus exporter for nftables metrics
 app-metrics/nginx-lua-prometheus 0.1_pre20170610-r100: Library that exports Nginx metrics to Prometheus
 app-metrics/nginx-vts-exporter 0.10.8: Nginx virtual host traffic stats exporter for Prometheus
-app-metrics/node_exporter 1.8.1 1.8.2 1.9.0 9999: Prometheus exporter for machine metrics
+app-metrics/node_exporter 1.8.2 1.9.0 1.9.1 9999: Prometheus exporter for machine metrics
 app-metrics/openvpn_exporter 0.3.0: Prometheus Exporter for OpenVPN
 app-metrics/portage-exporter 0.1.0: Prometheus exporter for Gentoo Portage
 app-metrics/postfix_exporter 0.3.0: Prometheus Exporter for Postfix
@@ -3968,7 +3968,7 @@ dev-db/mariadb 10.6.15 10.6.17 10.6.20 10.6.21 10.11.10 10.11.11 11.4.5: An enha
 dev-db/mariadb-connector-c 3.3.8 9999: C client library for MariaDB/MySQL
 dev-db/mariadb-connector-odbc 3.1.18: MariaDB Connector/ODBC
 dev-db/mongodb 5.0.30: A high-performance, open source, schema-free document-oriented database
-dev-db/mongodb-compass-bin 1.45.2 1.45.3 1.45.4: GUI for MongoDB
+dev-db/mongodb-compass-bin 1.45.4 1.46.0: GUI for MongoDB
 dev-db/mycli 1.29.2: CLI for MySQL Database with auto-completion and syntax highlighting
 dev-db/mydumper 0.15.2.8-r1 0.16.11.2 0.18.1.1: A high-performance multi-threaded backup (and restore) toolset for MySQL
 dev-db/myodbc 8.0.32: ODBC driver for MySQL
@@ -5143,7 +5143,7 @@ dev-lang/clips 6.40: Tool for building Expert Systems (native version)
 dev-lang/clipsjni 6.40-r1: Tool for building Expert Systems (Java version)
 dev-lang/cll1h 0.6-r1: C<<1 programming language system
 dev-lang/clojure 1.12.0: General-purpose programming language with an emphasis on functional programming
-dev-lang/closure-compiler-bin 20240317: JavaScript optimizing compiler
+dev-lang/closure-compiler-bin 20240317 20250402: JavaScript optimizing compiler
 dev-lang/coffee-script 2.7.0: A little language that compiles into javascript
 dev-lang/crystal 1.15.0-r1 1.15.1: The Crystal Programming Language
 dev-lang/cue 0.7.0: open-source data validation language and inference engine
@@ -5169,7 +5169,7 @@ dev-lang/gleam 1.4.1-r1: A friendly language for building type-safe, scalable sy
 dev-lang/gnat-gpl 2021-r5: GNAT Ada Compiler - GPL version
 dev-lang/gnucobol 3.2-r1: A free/libre COBOL compiler
 dev-lang/gnuprologjava 0.2.6-r2: GNU Prolog for Java is an implementation of ISO Prolog as a Java library
-dev-lang/go 1.23.7 1.24.1 9999: A concurrent garbage collected and typesafe programming language
+dev-lang/go 1.23.7 1.23.8 1.24.1 1.24.2 9999: A concurrent garbage collected and typesafe programming language
 dev-lang/go-bootstrap 1.20.14 1.22.12: Bootstrap package for dev-lang/go
 dev-lang/gprolog 1.5.0-r1: Native Prolog compiler with constraint solving over finite domains (FD)
 dev-lang/grass 0.13.4: A Sass compiler written purely in Rust
@@ -5253,7 +5253,7 @@ dev-lang/tcl 8.6.13-r1 8.6.14 8.6.15 8.6.16: Tool Command Language
 dev-lang/teyjus 2.1-r2: Higher-order logic programming language Lambda Prolog
 dev-lang/tk 8.6.13 8.6.14 8.6.15 8.6.16: Tk Widget Set
 dev-lang/tuprolog 3.2.0-r3: tuProlog is a light-weight Prolog for Internet applications and infrastructures
-dev-lang/typescript 5.7.3 5.8.2: Superset of JavaScript with optional static typing, classes and interfaces
+dev-lang/typescript 5.8.2 5.8.3: Superset of JavaScript with optional static typing, classes and interfaces
 dev-lang/uasm 2.56.2 2.57: UASM is a free MASM-compatible assembler
 dev-lang/vala 0.56.16 0.56.17 0.56.18: Compiler for the GObject type system
 dev-lang/whitespace 0.4: Whitespace, an esoteric programming language
@@ -8301,7 +8301,7 @@ dev-python/django-otp 1.5.4 1.6.0: Django framework adding two-factor authentica
 dev-python/django-polymorphic 3.1-r1 4.0.0: Seamless Polymorphic Inheritance for Django Models
 dev-python/django-prometheus 2.3.1: Library to export Django metrics for Prometheus
 dev-python/django-redis 5.4.0: Full featured redis cache backend for Django
-dev-python/django-registration 3.4-r1 5.1.0-r1: user-registration application for Django
+dev-python/django-registration 3.4-r1 5.1.0-r1 5.2.1: user-registration application for Django
 dev-python/django-sortedm2m 3.1.1-r2 4.0.0: Drop-in replacement for django's many to many field with sorted relations
 dev-python/django-tables2 2.7.4 2.7.5: Table/data-grid framework for Django
 dev-python/django-taggit 5.0.1 6.1.0: Simple tagging for Django
@@ -8415,6 +8415,7 @@ dev-python/frozenlist 1.5.0: A list-like structure which implements collections.
 dev-python/fs 2.4.16: Filesystem abstraction layer
 dev-python/fsspec 2025.3.0 2025.3.1 2025.3.2: A specification that python filesystems should adhere to
 dev-python/ftfy 6.3.0 6.3.1: Fixes mojibake and other problems with Unicode, after the fact
+dev-python/fullmoon 1.0.2: Determine full moon occurences
 dev-python/funcparserlib 1.0.1: Recursive descent parsing library based on functional combinators
 dev-python/funcy 2.0: A collection of fancy functional tools focused on practicality
 dev-python/furo 2024.8.6: Clean customisable Sphinx documentation theme
@@ -8493,7 +8494,7 @@ dev-python/hvac 2.3.0: HashiCorp Vault API client
 dev-python/hypercorn 0.17.3: A ASGI Server based on Hyper libraries and inspired by Gunicorn
 dev-python/hyperframe 6.1.0: HTTP/2 framing layer for Python
 dev-python/hyperlink 21.0.0-r1: A featureful, correct URL for Python
-dev-python/hypothesis 6.129.4 6.130.8 6.130.9: A library for property based testing
+dev-python/hypothesis 6.129.4 6.130.8 6.130.9 6.130.10: A library for property based testing
 dev-python/icalendar 6.1.2 6.1.3: Package used for parsing and generating iCalendar files (RFC 2445)
 dev-python/id 1.5.0: A tool for generating OIDC identities
 dev-python/identify 2.6.8: File identification library for Python
@@ -9159,7 +9160,7 @@ dev-python/pytest-plus 0.8.1: PyTest Plus Plugin - extends pytest functionality
 dev-python/pytest-qt 4.4.0: Pytest plugin for PyQt5 and PySide2 applications
 dev-python/pytest-recording 0.13.1 0.13.2: A pytest plugin to record network interactions via VCR.py
 dev-python/pytest-regressions 2.7.0: Easy to use fixtures to write regression tests
-dev-python/pytest-repeat 0.9.3: pytest plugin for repeating tests
+dev-python/pytest-repeat 0.9.3 0.9.4: pytest plugin for repeating tests
 dev-python/pytest-reraise 2.1.2: Make multi-threaded pytest test cases fail when they should
 dev-python/pytest-rerunfailures 15.0: pytest plugin to re-run tests to eliminate flaky failures
 dev-python/pytest-reserial 0.4.3: Pytest plugin for recording and replaying serial port traffic during tests
@@ -9550,7 +9551,7 @@ dev-python/tiny-proxy 0.2.1: Simple proxy server (SOCKS4(a), SOCKS5(h), HTTP tun
 dev-python/tinycss2 1.4.0: A complete yet simple CSS parser for Python
 dev-python/tinyhtml5 2.0.0: HTML parser based on the WHATWG HTML specification
 dev-python/tld 0.13: Extract the top level domain (TLD) from the URL given
-dev-python/tldextract 5.1.3: Accurately separate the TLD from the registered domain and subdomains of a URL
+dev-python/tldextract 5.1.3 5.2.0: Accurately separate the TLD from the registered domain and subdomains of a URL
 dev-python/tokenize-rt 6.1.0: A wrapper around the stdlib 'tokenize' which roundtrips
 dev-python/toml-fmt-common 1.0.1: Common logic to the TOML formatter
 dev-python/tomli 2.2.1: A lil' TOML parser
@@ -9778,7 +9779,7 @@ dev-qt/qtwebsockets 5.15.16 6.8.2 6.8.3 6.9.0 6.9.9999 6.9999: Implementation of
 dev-qt/qtwebview 5.15.16 6.8.2 6.8.3 6.9.0 6.9.9999 6.9999: Module for displaying web content in a QML application using the Qt6 framework
 dev-qt/qtwidgets 5.15.16: Set of components for creating classic desktop-style UIs for the Qt5 framework
 dev-qt/qtx11extras 5.15.16: Linux/X11-specific support library for the Qt5 framework
-dev-qt/qtxml 5.15.16: Implementation of SAX and DOM for the Qt5 framework
+dev-qt/qtxml 5.15.16 5.15.16-r1: Implementation of SAX and DOM for the Qt5 framework
 dev-qt/qtxmlpatterns 5.15.16: XPath, XQuery, XSLT, and XML Schema validation library for the Qt5 framework
 dev-ruby/GeoRuby 2.5.2-r2: Ruby data holder for OGC Simple Features
 dev-ruby/abbrev 0.1.2: Calculates a set of unique abbreviations for a given set of strings
@@ -11539,7 +11540,7 @@ games-misc/bsd-games 2.17_p28-r2 3.2 3.3: Collection of games from NetBSD
 games-misc/bsod 0.1-r1: This program will let you experience the authentic Microsoft Windows experience
 games-misc/c++robots 0-r1: ongoing 'King of the Hill' (KotH) tournament
 games-misc/cowsay 3.7.0: Configurable talking ASCII cow (and other characters)
-games-misc/doge 3.8.0: wow very terminal doge
+games-misc/doge 3.8.0 3.9.0: wow very terminal doge
 games-misc/exult-sound 0-r2: Sound data for games-engines/exult
 games-misc/fortune-mod 3.18.0 3.22.0 3.24.0: The notorious fortune program
 games-misc/fortune-mod-all 4 5: Meta package for all fortune-mod packages
@@ -12607,7 +12608,7 @@ mail-filter/spamprobe 1.4d-r2 1.4d-r3: Fast, intelligent, automatic spam detecto
 mail-filter/spf-engine 3.0.4-r1 3.1.0: Policy daemon for Postfix SPF verification
 mail-filter/sqlgrey 1.8.0: A postfix policy service implementing a grey-listing policy
 mail-filter/zdkimfilter 3.21 3.22: DKIM filter for Courier-MTA
-mail-mta/courier 1.3.5 1.3.10 1.3.12 1.3.13 1.4.0: An MTA designed specifically for maildirs
+mail-mta/courier 1.3.5 1.3.10 1.3.12 1.3.13 1.4.0 1.4.1: An MTA designed specifically for maildirs
 mail-mta/esmtp 1.2-r2: User configurable relay-only Mail Transfer Agent with a sendmail-like syntax
 mail-mta/exim 4.97.1-r6 4.98.2: A highly configurable, drop-in replacement for sendmail
 mail-mta/msmtp 1.8.27 1.8.28: An SMTP client and SMTP plugin for mail user agents such as Mutt
@@ -14598,7 +14599,7 @@ net-dialup/linux-atm 2.5.2-r1 2.5.2-r2: Tools for ATM
 net-dialup/lrzsz 0.12.20-r10: Communication package providing the X, Y, and ZMODEM file transfer protocols
 net-dialup/mgetty 1.2.1-r4: A programm for sending and receiving fax and voice
 net-dialup/mingetty 1.08-r3: A compact getty program for virtual consoles only
-net-dialup/minicom 2.9 2.10: Serial Communication Program
+net-dialup/minicom 2.10: Serial Communication Program
 net-dialup/moserial 3.0.21: A clean and friendly gtk-based serial terminal
 net-dialup/mwavem 2.0-r2 2.0-r3: User level application for IBM Mwave modem
 net-dialup/neocon 20110228: A simple serial console utility that tries to open ttys repeatedly
@@ -14651,7 +14652,7 @@ net-dns/nsd 4.10.1-r2 4.11.1 9999: An authoritative only, high performance, open
 net-dns/opendnssec 2.1.13-r1: An open-source turn-key solution for DNSSEC
 net-dns/openresolv 3.12.0-r1 3.13.2-r1: A framework for managing DNS information
 net-dns/pdns 4.9.3 4.9.4: The PowerDNS Daemon
-net-dns/pdns-recursor 5.1.3-r1 5.2.0: The PowerDNS Recursor
+net-dns/pdns-recursor 5.1.3-r1 5.2.1: The PowerDNS Recursor
 net-dns/pdnsd 1.2.9a-r2: Proxy DNS server with permanent caching
 net-dns/rbldnsd 0.998b-r3 0.998b-r4: DNS server designed to serve blacklist zones
 net-dns/resolv_wrapper 1.1.8: Wrapper for DNS name resolving or DNS faking
@@ -14825,8 +14826,8 @@ net-libs/axtls 2.1.5-r102: Embedded client/server TLSv1 SSL library and small HT
 net-libs/biblesync 2.1.0: A multicast protocol to support Bible software shared co-navigation
 net-libs/c-client 2007f_p7 2007f_p7-r1: UW IMAP c-client library
 net-libs/canlock 3.3.0 3.3.1: A library for creating and verifying Usenet cancel locks
-net-libs/courier-authlib 0.72.1 0.72.3: Courier authentication library
-net-libs/courier-unicode 2.3.0 2.3.1: Unicode library used by the courier mail server
+net-libs/courier-authlib 0.72.1 0.72.3 0.72.4: Courier authentication library
+net-libs/courier-unicode 2.3.0 2.3.1 2.3.2: Unicode library used by the courier mail server
 net-libs/cppzmq 4.9.0 4.10.0: High-level CPP Binding for ZeroMQ
 net-libs/cvm 0.97-r2: Credential Validation Modules by Bruce Guenter
 net-libs/czmq 4.2.1: High-level C Binding for ZeroMQ
@@ -15346,7 +15347,7 @@ net-misc/spiped 1.6.2-r1: secure pipe daemon
 net-misc/ssh-askpass-fullscreen 1.2: A small SSH Askpass replacement written with GTK2
 net-misc/sshpass 1.10: Tool for non-interactively performing password authentication with ssh
 net-misc/sshrc 0.6.2: Bring your .bashrc, .vimrc, etc. from your local machine when you ssh
-net-misc/sslh 2.1.2-r1 2.1.4 9999: Port multiplexer - accept both HTTPS and SSH connections on the same port
+net-misc/sslh 2.1.2-r1 2.1.4 2.2.1 9999: Port multiplexer - accept both HTTPS and SSH connections on the same port
 net-misc/sstp-client 1.0.18-r2: Client implementation of Secure Socket Tunneling Protocol (SSTP)
 net-misc/streamlink 7.1.3 7.2.0 9999: CLI for extracting streams from websites to a video player of your choice
 net-misc/streamtuner 0.99.99-r7: Stream directory browser for browsing internet radio streams
@@ -15615,7 +15616,7 @@ net-wireless/dump1090 9.0 10.0.1 9999: Simple Mode S decoder for RTLSDR devices
 net-wireless/gnome-bluetooth 46.2 47.1: Bluetooth graphical utilities integrated with GNOME
 net-wireless/gnuradio 3.10.9.2-r6 3.10.11.0 9999: Toolkit that provides signal processing blocks to implement software radios
 net-wireless/gobi_loader 0.7-r3: gobi_loader is a firmware loader for Qualcomm Gobi USB chipsets
-net-wireless/gqrx 2.17.2-r1 9999: Software defined radio receiver powered by GNU Radio and Qt
+net-wireless/gqrx 2.17.2-r1 2.17.6 9999: Software defined radio receiver powered by GNU Radio and Qt
 net-wireless/gqrx-scanner 1.0.4: frequency scanner for Gqrx Software Defined Radio receiver
 net-wireless/gr-ieee802154 0.0_p20210719-r4 0.0_p20230828 9999: IEEE 802.15.4 ZigBee Transceiver
 net-wireless/gr-iqbal 0.38.2_p20210108-r1 9999: gnuradio I/Q balancing
@@ -15738,7 +15739,7 @@ sci-biology/augustus 2.5.5 3.4.0-r3 3.5.0: Eukaryotic gene predictor
 sci-biology/bamtools 2.5.2 9999: A programmer's API and an end-user's toolkit for handling BAM files
 sci-biology/bcftools 1.19 1.20 1.21: Utilities for variant calling and manipulating VCF and BCF files
 sci-biology/bedtools 2.30.0 2.31.1: Tools for manipulation and analysis of BED, GFF/GTF, VCF, SAM/BAM file formats
-sci-biology/bfast 0.7.0a: Blat-like Fast Accurate Search Tool
+sci-biology/bfast 0.7.0a 0.7.0a-r1: Blat-like Fast Accurate Search Tool
 sci-biology/biogrep 1.0-r3: Multithreaded tool for matching large sets of patterns against biosequence DBs
 sci-biology/bioperl 1.6.9-r1: Perl tools for bioinformatics - Core modules
 sci-biology/bioperl-db 1.6.9-r2: Perl tools for bioinformatics - Perl API that accesses the BioSQL schema
@@ -17621,8 +17622,8 @@ sys-kernel/dkms 3.1.4 3.1.5 3.1.6 3.1.7 9999: Dynamic Kernel Module Support
 sys-kernel/dracut 060_pre20240104-r4 103-r4 106-r2 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8 1.0.8-r1: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.234 5.10.235 5.15.178 5.15.179 6.1.132 6.6.85 6.12.21 6.13.9: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.234 5.10.235 5.15.178 5.15.179 6.1.132 6.6.85 6.12.21 6.13.9: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.234 5.10.235 5.15.178 5.15.179 6.1.132 6.1.133 6.6.85 6.6.86 6.12.21 6.12.22 6.13.9 6.13.10 6.14.1: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.234 5.10.235 5.15.178 5.15.179 6.1.132 6.1.133 6.6.85 6.6.86 6.12.21 6.12.22 6.13.9 6.13.10 6.14.1: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.233 5.10.234 5.10.235 5.15.177 5.15.178 5.15.179 6.1.118 6.1.129 6.1.130 6.1.131 6.1.132 6.1.133 6.6.62 6.6.79 6.6.83 6.6.84 6.6.85 6.6.86 6.12.16 6.12.19 6.12.20 6.12.21 6.12.22 6.13.7 6.13.8 6.13.9 6.13.10 6.14.0 6.14.1: Full sources including the Gentoo patchset for the 6.14 kernel tree
 sys-kernel/git-sources 6.15_rc1: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 50 55 56 57: Gentoo fork of installkernel script from debianutils
@@ -17641,7 +17642,7 @@ sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230
 sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.290_p95 5.10.234_p127 5.15.177_p83 6.0.5_p14 6.1.128_p49 6.5.2_p8 6.6.65_p47: Full Linux 6.6 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/scx 1.0.8 1.0.9 1.0.10: sched_ext schedulers and tools
 sys-kernel/ugrd 1.20.0 1.22.0 1.24.2 1.27.2 1.28.2 1.29.0-r1 1.31.2 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.234 5.10.235 5.10.9999 5.15.178 5.15.179 5.15.9999 6.1.132 6.1.9999 6.6.85 6.6.9999 6.12.21 6.12.9999 6.13.9: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.234 5.10.235 5.10.9999 5.15.178 5.15.179 5.15.9999 6.1.132 6.1.133 6.1.9999 6.6.85 6.6.86 6.6.9999 6.12.21 6.12.22 6.12.9999 6.13.9 6.13.10 6.14.1: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.4.291 5.10.235 5.15.179 6.1.133 6.6.86 6.12.22 6.13.10 6.14.1: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.32_p20250124 1.33: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 6.13.8: The Zen Kernel Live Sources
@@ -17827,7 +17828,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.234 5.10.235 5.15.178 5.15.179 6.1.132 6.6.85 6.12.21 6.13.9: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.234 5.10.235 5.15.178 5.15.179 6.1.132 6.1.133 6.6.85 6.6.86 6.12.21 6.12.22 6.13.9 6.13.10 6.14.1: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -18052,7 +18053,7 @@ www-apps/jekyll-coffeescript 2.0.0-r1: A CoffeeScript Converter for Jekyll
 www-apps/jekyll-sass-converter 2.2.0: A basic Sass converter for Jekyll
 www-apps/jekyll-sitemap 1.4.0-r1: Automatically generate a sitemap.xml for your Jekyll site
 www-apps/jekyll-watch 2.2.1-r2: Rebuild your Jekyll site when a file changes with the --watch switch
-www-apps/jellyfin-bin 10.10.6: Jellyfin puts you in control of managing and streaming your media
+www-apps/jellyfin-bin 10.10.7: Jellyfin puts you in control of managing and streaming your media
 www-apps/karma-bin 0.90: Alerts dashboard for Prometheus Alertmanager
 www-apps/kibana-bin 7.17.25: Analytics and search dashboard for Elasticsearch
 www-apps/klaus 2.0.3 3.0.1: A simple, easy-to-set-up Git web viewer
@@ -18078,8 +18079,8 @@ www-apps/phpBB 3.3.14: An open-source PHP-based bulletin board package
 www-apps/phpsysinfo 3.4.4: A customizable PHP script that displays information about your system nicely
 www-apps/piwigo 15.4.0 15.5.0: a photo gallery software for the web
 www-apps/postfixadmin 3.3.13-r1 3.3.15: Web Based Management tool for Postfix style virtual domains and users
-www-apps/prowlarr-bin 1.33.1.4997: An indexer manager/proxy to integrate with your various PVR apps
-www-apps/radarr-bin 5.22.0.9808: A fork of Sonarr to work with movies a la Couchpotato
+www-apps/prowlarr-bin 1.33.2.5002: An indexer manager/proxy to integrate with your various PVR apps
+www-apps/radarr-bin 5.22.1.9832: A fork of Sonarr to work with movies a la Couchpotato
 www-apps/radicale 3.3.1 3.4.1 3.5.0: A simple CalDAV calendar server
 www-apps/readarr-bin 0.4.13.2760: An ebook and audiobook collection manager for Usenet and BitTorrent users
 www-apps/redmine 5.1.5 6.0.2: Flexible project management web application using the Ruby on Rails framework
