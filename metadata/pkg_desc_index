@@ -4016,7 +4016,7 @@ dev-db/phpmyadmin 5.2.1: Web-based administration for MySQL database in PHP
 dev-db/phppgadmin 7.14.7: Web-based administration for Postgres database in php
 dev-db/plr 8.4.5 8.4.6: R language extension for postgresql database
 dev-db/postgis 3.3.7-r2 3.3.8-r1 3.4.4-r1 3.5.2-r1 3.5.3-r2 3.6.0_beta1: Geographic Objects for PostgreSQL
-dev-db/postgresql 13.21 14.18 15.13 16.9 17.5 18_beta2 9999: PostgreSQL RDBMS
+dev-db/postgresql 13.21 13.22 14.18 14.19 15.13 15.14 16.9 16.10 17.5 17.6 18_beta3 9999: PostgreSQL RDBMS
 dev-db/pspg 5.5.4 5.5.8 5.8.1 5.8.5 5.8.7: A better pager for CLI database clients and can be used in place of psql
 dev-db/psqlodbc 16.00.0000: Official ODBC driver for PostgreSQL
 dev-db/qdbm 1.8.78-r5: Quick Database Manager
@@ -5222,7 +5222,7 @@ dev-lang/polyml 5.9.1 5.9.2: Poly/ML is a full implementation of Standard ML
 dev-lang/pypy 2.7.7.3.20 3.11.7.3.20_p2: A fast, compliant alternative implementation of the Python (3.11) language
 dev-lang/pypy3-exe 3.11.7.3.20: PyPy3.11 executable (build from source)
 dev-lang/pypy3-exe-bin 3.11.7.3.20: PyPy3.11 executable (pre-built version)
-dev-lang/python 0.3.13.4 0.3.13.5 0.3.13.5_p1 0.3.13.6 0.3.13.9999 0.3.14.0_beta4 0.3.14.0_rc1 0.3.14.0_rc1_p1 0.3.14.9999 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.23-r1 3.9.23_p2 3.9.9999 3.10.18-r1 3.10.18_p2 3.10.9999 3.11.13-r1 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.6 3.13.9999 3.14.0_beta4 3.14.0_rc1 3.14.0_rc1_p1 3.14.9999 3.15.9999: An interpreted, interactive, object-oriented programming language
+dev-lang/python 0.3.13.4 0.3.13.5 0.3.13.5_p1 0.3.13.6 0.3.13.6_p1 0.3.13.9999 0.3.14.0_beta4 0.3.14.0_rc1 0.3.14.0_rc1_p1 0.3.14.9999 0.3.15.9999 2.7.18_p16-r2 3.8.20_p7-r1 3.9.23-r1 3.9.23_p2 3.9.9999 3.10.18-r1 3.10.18_p2 3.10.9999 3.11.13-r1 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.6 3.13.6_p1 3.13.9999 3.14.0_beta4 3.14.0_rc1 3.14.0_rc1_p1 3.14.9999 3.15.9999: An interpreted, interactive, object-oriented programming language
 dev-lang/python-exec 2.4.10: Python script wrapper
 dev-lang/python-exec-conf 2.4.6: Configuration file for dev-lang/python-exec
 dev-lang/qore 1.19.2: Qore, the embeddable multithreaded scripting language
@@ -9261,7 +9261,7 @@ dev-python/python-stdnum 2.1: A module to handle standardized numbers and codes
 dev-python/python-subunit 1.4.4: A streaming protocol for test results
 dev-python/python-swiftclient 4.8.0: Python bindings to the OpenStack Object Storage API
 dev-python/python-systemd 235: Python module for native access to the systemd facilities
-dev-python/python-tests 0.3.13.4 0.3.13.5 0.3.13.5_p1 0.3.13.6 0.3.13.9999 0.3.14.0_beta4 0.3.14.0_rc1 0.3.14.0_rc1_p1 0.3.14.9999 3.11.13 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.6 3.13.9999 3.14.0_beta4 3.14.0_rc1 3.14.0_rc1_p1 3.14.9999: Test modules from dev-lang/python
+dev-python/python-tests 0.3.13.4 0.3.13.5 0.3.13.5_p1 0.3.13.6 0.3.13.6_p1 0.3.13.9999 0.3.14.0_beta4 0.3.14.0_rc1 0.3.14.0_rc1_p1 0.3.14.9999 3.11.13 3.11.13_p1 3.11.9999 3.12.11 3.12.11_p1 3.12.9999 3.13.5 3.13.5_p1 3.13.6 3.13.6_p1 3.13.9999 3.14.0_beta4 3.14.0_rc1 3.14.0_rc1_p1 3.14.9999: Test modules from dev-lang/python
 dev-python/python-tlsh 4.8.2-r1: Fuzzy matching library - C++ extension for Python
 dev-python/python-utils 3.9.1: Collection of small Python functions & classes
 dev-python/python-vlc 3.0.21203: Python ctypes-based bindings for libvlc
@@ -9806,20 +9806,20 @@ dev-ruby/GeoRuby 2.5.2-r2: Ruby data holder for OGC Simple Features
 dev-ruby/abbrev 0.1.2: Calculates a set of unique abbreviations for a given set of strings
 dev-ruby/abstract 1.0.0-r5: Library which enable you to define abstract method in Ruby
 dev-ruby/acme-client 2.0.21 2.0.22 2.0.23 2.0.24 2.0.25: A Ruby client for the letsencrypt's ACME protocol
-dev-ruby/actioncable 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Integrated WebSockets for Rails
-dev-ruby/actionmailbox 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Framework for designing email-service layers
-dev-ruby/actionmailer 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Framework for designing email-service layers
-dev-ruby/actionpack 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Eases web-request routing, handling, and response
+dev-ruby/actioncable 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Integrated WebSockets for Rails
+dev-ruby/actionmailbox 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Framework for designing email-service layers
+dev-ruby/actionmailer 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Framework for designing email-service layers
+dev-ruby/actionpack 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Eases web-request routing, handling, and response
 dev-ruby/actionpack-xml_parser 2.0.1-r4: XML parameters parser for Action Pack (removed from core in Rails 4.0)
-dev-ruby/actiontext 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Edit and display rich text in Rails applications
-dev-ruby/actionview 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Simple, battle-tested conventions and helpers for building web pages
-dev-ruby/activejob 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Job framework with pluggable queues
+dev-ruby/actiontext 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Edit and display rich text in Rails applications
+dev-ruby/actionview 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Simple, battle-tested conventions and helpers for building web pages
+dev-ruby/activejob 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Job framework with pluggable queues
 dev-ruby/activeldap 7.2.1 7.2.2: ActiveLDAP provides an activerecord inspired object oriented interface to LDAP
-dev-ruby/activemodel 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Toolkit for building modeling frameworks like Active Record and Active Resource
+dev-ruby/activemodel 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Toolkit for building modeling frameworks like Active Record and Active Resource
 dev-ruby/activemodel-serializers-xml 1.0.3: XML serialization for your Active Model objects and Active Record models
-dev-ruby/activerecord 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Implements the ActiveRecord pattern (Fowler, PoEAA) for ORM
-dev-ruby/activestorage 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Attach cloud and local files in Rails applications
-dev-ruby/activesupport 7.0.8.7-r1 7.1.4.2 7.1.5-r1 7.1.5.1 7.2.2-r1 7.2.2.1 8.0.1 8.0.2: Utility Classes and Extension to the Standard Library
+dev-ruby/activerecord 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Implements the ActiveRecord pattern (Fowler, PoEAA) for ORM
+dev-ruby/activestorage 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Attach cloud and local files in Rails applications
+dev-ruby/activesupport 7.0.8.7-r1 7.1.4.2 7.1.5-r1 7.1.5.1 7.1.5.2 7.2.2-r1 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Utility Classes and Extension to the Standard Library
 dev-ruby/acts_as_list 1.2.4: Capabilities for sorting and reordering a number of objects in a list
 dev-ruby/addressable 2.8.7: A replacement for the URI implementation that is part of Ruby's standard library
 dev-ruby/ae 1.8.2-r1: Assertive Expressive is an assertions library designed for reuse
@@ -10235,10 +10235,10 @@ dev-ruby/rack-session 1.0.1 2.1.0 2.1.1: A session implementation for Rack
 dev-ruby/rack-test 2.2.0: Rack::Test is a small, simple testing API for Rack apps
 dev-ruby/rackup 2.2.1-r1: A general server command for Rack applications
 dev-ruby/radius 0.8.0: Powerful tag-based template system
-dev-ruby/rails 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: ruby on rails is a web-application and persistence framework
+dev-ruby/rails 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: ruby on rails is a web-application and persistence framework
 dev-ruby/rails-dom-testing 2.2.0 2.3.0: Compare doms and assert certain elements exists in doms using Nokogiri
 dev-ruby/rails-html-sanitizer 1.6.2: Sanitize HTML fragments in Rails applications
-dev-ruby/railties 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.2.2 7.2.2.1 8.0.1 8.0.2: Tools for creating, working with, and running Rails applications
+dev-ruby/railties 7.0.8.7 7.1.4.2 7.1.5 7.1.5.1 7.1.5.2 7.2.2 7.2.2.1 7.2.2.2 8.0.1 8.0.2 8.0.2.1: Tools for creating, working with, and running Rails applications
 dev-ruby/rainbow 3.1.1: Colorize printed text on ANSI terminals
 dev-ruby/rake 13.0.6-r2 13.2.1 13.3.0: Make-like scripting in Ruby
 dev-ruby/rake-compiler 1.3.0: Provide a standard and simplified way to build and package Ruby extensions
@@ -10702,7 +10702,7 @@ dev-util/bingrep 0.11.0-r1: Binary file analysis tool
 dev-util/bloaty 1.1-r1 9999: A size profiler for binaries
 dev-util/blueprint-compiler 0.16.0 0.18.0: Compiler for Blueprint, a markup language for GTK user interfaces
 dev-util/bootconfig 6.6 6.9: Bootconfig tools for kernel command line to support key-value
-dev-util/bpf-linker 0.9.14: Simple BPF static linker
+dev-util/bpf-linker 0.9.14 0.9.14-r1: Simple BPF static linker
 dev-util/bpftool 7.5.0-r1 7.6.0 9999: Tool for inspection and simple manipulation of eBPF programs and maps
 dev-util/bpftop 0.2.3-r1 0.5.1-r1 0.6.0: Process monitor for BPF programs
 dev-util/breakpad 2023.06.01 2024.02.16: implement a crash-reporting system.
@@ -11935,7 +11935,7 @@ gnome-base/gnome-light 45.2: Meta package for GNOME-Light, merge this package to
 gnome-base/gnome-menus 3.36.0-r1: Library and layout configuration for the Desktop Menu fd.o specification
 gnome-base/gnome-panel 3.54.0 3.56.0: The GNOME Flashback Panel
 gnome-base/gnome-session 46.0-r2 47.0.1-r2: Gnome session manager
-gnome-base/gnome-settings-daemon 46.0-r2 47.2: Gnome Settings Daemon
+gnome-base/gnome-settings-daemon 47.2 48.1: Gnome Settings Daemon
 gnome-base/gnome-shell 46.7-r1 47.3 47.3-r2 47.7 47.8: Provides core UI functions for the GNOME desktop
 gnome-base/gsettings-desktop-schemas 47.1 48.0: Collection of GSettings schemas for GNOME desktop
 gnome-base/gvfs 1.52.3-r2 1.56.1-r2: Virtual filesystem implementation for GIO
@@ -12075,7 +12075,7 @@ gui-apps/liquidshell 1.10.0: Basic desktop shell using QtWidgets
 gui-apps/mako 1.8.0 1.9.0 1.10.0 9999: A lightweight notification daemon for Wayland. Works on Sway
 gui-apps/nm-tray 0.5.1: A simple Qt-based NetworkManager front-end
 gui-apps/qt6ct 0.10: Qt6 Configuration Tool (for DE/WM without Qt integration)
-gui-apps/railway 2.8.1 2.8.2: Travel with all your train information in one place
+gui-apps/railway 2.8.2: Travel with all your train information in one place
 gui-apps/slurp 1.5.0: Select a region in a Wayland compositor and print it to the standard output
 gui-apps/swappy 1.5.1 9999: A Wayland native snapshot and editor tool, inspired by Snappy on macOS
 gui-apps/swaybg 1.2.0 1.2.1 9999: A wallpaper utility for Wayland
@@ -17661,8 +17661,8 @@ sys-kernel/dkms 3.1.6 3.1.7 3.1.8 3.2.0 3.2.1 9999: Dynamic Kernel Module Suppor
 sys-kernel/dracut 060_pre20240104-r4 103-r4 106-r2 107 108-r2 9999: Generic initramfs generation tool
 sys-kernel/dracut-crypt-ssh 1.0.8-r1: Early unlocking of encrypted systems via ssh for dracut
 sys-kernel/genkernel 4.3.10 4.3.11 4.3.12 4.3.12-r1 4.3.14 4.3.15 4.3.16 4.3.16-r2 4.3.16-r3 4.3.16-r4 4.3.16-r5 4.3.17 4.3.17-r1 4.3.17-r2 9999: Gentoo automatic kernel building scripts
-sys-kernel/gentoo-kernel 5.10.239 5.10.240 5.15.188 5.15.189 6.1.145 6.1.146 6.1.147 6.6.98 6.6.99 6.6.100 6.6.101 6.12.38 6.12.39 6.12.40 6.12.41 6.15.7 6.15.8 6.15.9 6.15.9-r1: Linux kernel built with Gentoo patches
-sys-kernel/gentoo-kernel-bin 5.10.239 5.10.240 5.15.188 5.15.189 6.1.145 6.1.146 6.1.147 6.6.98 6.6.99 6.6.100 6.6.101 6.12.38 6.12.39 6.12.40 6.12.41 6.15.7 6.15.8 6.15.9 6.15.9-r1: Pre-built Linux kernel with Gentoo patches
+sys-kernel/gentoo-kernel 5.10.240 5.15.189 6.1.147 6.6.101 6.12.41 6.15.9-r1: Linux kernel built with Gentoo patches
+sys-kernel/gentoo-kernel-bin 5.10.240 5.15.189 6.1.147 6.6.101 6.12.41 6.15.9-r1: Pre-built Linux kernel with Gentoo patches
 sys-kernel/gentoo-sources 5.10.233 5.10.237 5.10.238 5.10.239 5.10.240 5.15.177 5.15.184 5.15.185 5.15.186 5.15.187 5.15.188 5.15.189 6.1.132 6.1.140 6.1.141 6.1.142 6.1.143 6.1.144 6.1.145 6.1.146 6.1.147 6.6.85 6.6.92 6.6.93 6.6.94 6.6.95 6.6.96 6.6.97 6.6.98 6.6.99 6.6.100 6.6.101 6.12.21 6.12.31 6.12.33 6.12.34 6.12.35 6.12.36 6.12.37 6.12.38 6.12.39 6.12.40 6.12.41 6.15.1 6.15.2 6.15.3 6.15.4 6.15.5 6.15.6 6.15.7 6.15.8 6.15.9 6.15.9-r1 6.16.0: Full sources including the Gentoo patchset for the 6.16 kernel tree
 sys-kernel/git-sources 6.17_rc1: The very latest -git version of the Linux kernel
 sys-kernel/installkernel 50 60 61: Gentoo fork of installkernel script from debianutils
@@ -17681,7 +17681,7 @@ sys-kernel/raspberrypi-sources 5.15.76_p20221104 5.15.84_p20230106 6.1.21_p20230
 sys-kernel/rt-sources 4.14.336_p159 4.19.325_p140 5.4.293_p98 5.10.239_p133 5.15.185_p86 6.0.5_p14 6.1.134_p51 6.1.141_p52 6.5.2_p8 6.6.94_p56 6.12.28_p10: Full Linux 6.12 kernel sources with the CONFIG_PREEMPT_RT patch
 sys-kernel/scx 1.0.10 1.0.11 1.0.12 1.0.13 1.0.14 1.0.15: sched_ext schedulers and tools
 sys-kernel/ugrd 1.27.2 1.28.2 1.29.0-r1 1.31.2 2.0.2 9999: Python based POSIX initramfs generator with TOML definitions
-sys-kernel/vanilla-kernel 5.10.239 5.10.240 5.10.9999 5.15.188 5.15.189 5.15.9999 6.1.145 6.1.146 6.1.147 6.1.9999 6.6.98 6.6.99 6.6.100 6.6.101 6.6.9999 6.12.38 6.12.39 6.12.40 6.12.41 6.12.9999 6.15.7 6.15.8 6.15.9: Linux kernel built from vanilla upstream sources
+sys-kernel/vanilla-kernel 5.10.240 5.10.9999 5.15.189 5.15.9999 6.1.147 6.1.9999 6.6.101 6.6.9999 6.12.41 6.12.9999 6.15.9: Linux kernel built from vanilla upstream sources
 sys-kernel/vanilla-sources 5.4.296 5.10.240 5.15.189 6.1.147 6.6.101 6.12.41 6.15.9 6.16.0: Full sources for the Linux kernel
 sys-kernel/virtme-ng 1.33 1.36: Quickly build and run kernels inside a virtualized snapshot of your live system
 sys-kernel/zen-sources 6.13.8: The Zen Kernel Live Sources
@@ -17867,7 +17867,7 @@ virtual/commonlisp 0-r1: Virtual for Common Lisp
 virtual/cron 0-r3: Virtual for cron
 virtual/daemontools 0: Virtual for daemontools
 virtual/dev-manager 0-r2: Virtual for the device filesystem manager
-virtual/dist-kernel 5.10.239 5.10.240 5.15.188 5.15.189 6.1.145 6.1.146 6.1.147 6.6.98 6.6.99 6.6.100 6.6.101 6.12.38 6.12.39 6.12.40 6.12.41 6.15.7 6.15.8 6.15.9: Virtual to depend on any Distribution Kernel
+virtual/dist-kernel 5.10.240 5.15.189 6.1.147 6.6.101 6.12.41 6.15.9: Virtual to depend on any Distribution Kernel
 virtual/dotnet-sdk 6.0-r2 7.0-r1 8.0 9.0: Virtual for .NET SDK
 virtual/editor 0-r7: Virtual for editor
 virtual/fam 0-r1: A virtual package to choose between gamin and fam
@@ -19059,18 +19059,18 @@ x11-wm/xmonad-contrib 0.17.0 0.17.1 0.18.0: Community-maintained extensions for 
 x11-wm/xpra 4.4.6-r2 4.4.6-r3 6.0.1-r2 6.0.1-r3 6.2.5-r1 6.9999 9999: X Persistent Remote Apps (xpra) and Partitioning WM (parti) based on wimpiggy
 xfce-base/exo 4.20.0-r1 4.21.0-r1: Extensions, widgets and framework library with session support for Xfce
 xfce-base/garcon 4.20.0 4.21.0: Xfce's freedesktop.org specification compatible menu implementation library
-xfce-base/libxfce4ui 4.20.1 4.21.1 4.21.2: Unified widget and session management libs for Xfce
+xfce-base/libxfce4ui 4.20.1 4.20.2 4.21.1 4.21.2: Unified widget and session management libs for Xfce
 xfce-base/libxfce4util 4.20.1: A basic utility library for the Xfce desktop environment
-xfce-base/libxfce4windowing 4.20.3: Unified widget and session management libs for Xfce
+xfce-base/libxfce4windowing 4.20.3 4.20.4: Unified widget and session management libs for Xfce
 xfce-base/thunar 4.20.3 4.20.4 4.21.1 4.21.2: File manager for the Xfce desktop environment
 xfce-base/thunar-volman 4.20.0: Daemon that enforces volume-related policies
 xfce-base/tumbler 4.20.0 4.21.0: A thumbnail service for Thunar
 xfce-base/xfce4-appfinder 4.20.0 4.21.0: A tool to find and launch installed applications for the Xfce desktop
 xfce-base/xfce4-meta 4.20: The Xfce Desktop Environment (meta package)
-xfce-base/xfce4-panel 4.20.4 4.21.0: Panel for the Xfce desktop environment
+xfce-base/xfce4-panel 4.20.4 4.20.5 4.21.0: Panel for the Xfce desktop environment
 xfce-base/xfce4-power-manager 4.20.0 4.21.0: Power manager for the Xfce desktop environment
-xfce-base/xfce4-session 4.20.2 4.21.0: A session manager for the Xfce desktop environment
-xfce-base/xfce4-settings 4.20.1 4.21.0-r1: Configuration system for the Xfce desktop environment
+xfce-base/xfce4-session 4.20.2 4.20.3 4.21.0: A session manager for the Xfce desktop environment
+xfce-base/xfce4-settings 4.20.1 4.20.2 4.21.0-r1: Configuration system for the Xfce desktop environment
 xfce-base/xfconf 4.20.0 4.21.0: A configuration management system for Xfce
 xfce-base/xfdesktop 4.20.1: Desktop manager for the Xfce desktop environment
 xfce-base/xfwm4 4.20.0: Window manager for the Xfce desktop environment
