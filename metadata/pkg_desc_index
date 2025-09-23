@@ -1485,7 +1485,7 @@ app-crypt/monkeysphere 0.44-r2: Leverage the OpenPGP web of trust for OpenSSH an
 app-crypt/moolticute 1.03.0-r2 9999: Mooltipass crossplatform daemon/tools
 app-crypt/nasty 0.6-r2: Proof-of-concept GPG passphrase recovery tool
 app-crypt/nitrocli 0.4.1-r1: A command line tool for interacting with Nitrokey devices
-app-crypt/nwipe 0.38: Securely erase disks using a variety of recognized methods
+app-crypt/nwipe 0.39: Securely erase disks using a variety of recognized methods
 app-crypt/onak 0.6.3: onak is an OpenPGP keyserver
 app-crypt/ophcrack 3.8.0-r2: A time-memory-trade-off-cracker
 app-crypt/ophcrack-tables 1.0-r2: Tables available for ophcrack
@@ -1557,7 +1557,7 @@ app-dicts/aspell-ca 2.5.0-r1: Aspell (Catalan) language dictionary
 app-dicts/aspell-cs 20040614.1-r1: Aspell (Czech) language dictionary
 app-dicts/aspell-csb 0.02.0-r1: Aspell (Kashubian) language dictionary
 app-dicts/aspell-cy 0.50.3-r1: Aspell (Welsh) language dictionary
-app-dicts/aspell-da 4.5: Aspell (Danish) language dictionary
+app-dicts/aspell-da 4.5 4.5.1: Aspell (Danish) language dictionary
 app-dicts/aspell-de 20161207.7.0-r1: Aspell (German, Austria-German and Swiss-German) language dictionary
 app-dicts/aspell-de-alt 2.1.1-r2: Aspell (German (traditional orthography)) language dictionary
 app-dicts/aspell-el 0.08.0-r1: Aspell (Greek) language dictionary
@@ -2347,7 +2347,7 @@ app-emulation/fex-xtajit 2506 2507.1 2509: A wine emulation dll for running x86 
 app-emulation/firecracker-bin 1.10.1 1.12.0 1.13.1: Secure and fast microVMs for serverless computing (static build)
 app-emulation/free42 3.1.9 3.3.3 3.3.6 3.3.8: An HP-42S Calculator Simulator
 app-emulation/fs-uae 3.1.66 3.2.35: Integrates the most accurate Amiga emulation code available from WinUAE
-app-emulation/fs-uae-launcher 3.1.70-r1 3.2.20: PyQt-based launcher for FS-UAE
+app-emulation/fs-uae-launcher 3.1.70-r1 3.2.35: PyQt-based launcher for FS-UAE
 app-emulation/fuse 1.6.0-r3: Free Unix Spectrum Emulator by Philip Kendall
 app-emulation/fuse-utils 1.4.3-r2: Utils for the Free Unix Spectrum Emulator by Philip Kendall
 app-emulation/gallium-nine-standalone 0.10 9999: A standalone version of the WINE parts of Gallium Nine
@@ -2514,7 +2514,7 @@ app-i18n/gnulib-l10n 20241231: Localization for gnulib
 app-i18n/ibus 1.5.29 1.5.29-r1 1.5.30-r1 1.5.31-r1: Intelligent Input Bus for Linux / Unix OS
 app-i18n/ibus-anthy 1.5.16 1.5.17: Japanese Anthy engine for IBus
 app-i18n/ibus-cangjie 2.5.0: Chinese Cangjie and Quick engines for IBus
-app-i18n/ibus-chewing 1.6.1_p20210117-r1: Chinese Chewing engine for IBus
+app-i18n/ibus-chewing 2.1.7: Chinese Chewing engine for IBus
 app-i18n/ibus-fbterm 1.0.1: IBus client for FbTerm
 app-i18n/ibus-handwrite 3.0.0-r2: Hand write recognition/input for IBus
 app-i18n/ibus-hangul 1.5.5: Korean Hangul engine for IBus
@@ -2538,7 +2538,7 @@ app-i18n/kakasi 2.3.6-r2: Converts Japanese text between kanji, kana, and romaji
 app-i18n/kanjipad 2.0.0-r1: Japanese handwriting recognition tool
 app-i18n/kcc 1.0: Kanji code converter
 app-i18n/libcangjie 1.4.0: Library implementing the Cangjie input method
-app-i18n/libchewing 0.5.1-r1 9999: Intelligent phonetic (Zhuyin/Bopomofo) input method library
+app-i18n/libchewing 0.5.1-r1 0.10.3: The intelligent phonetic input method library
 app-i18n/libhangul 0.1.0-r1 0.2.0: Library for hangul input method logic, hanja dictionary
 app-i18n/libime 1.1.10 1.1.11-r1: Fcitx5 Next generation of fcitx
 app-i18n/libpinyin 2.8.1 9999: Libraries for handling of Hanyu Pinyin and Zhuyin Fuhao
@@ -3808,8 +3808,9 @@ dev-build/bazel-buildtools 8.2.1: Tools for working with Google's Bazel BUILD fi
 dev-build/bazelisk 1.25.0: A user-friendly launcher for Bazel written in Go
 dev-build/bmake 20250414 20250618 20250804: NetBSD's portable make
 dev-build/boost-m4 0.4_p20221019: Another set of autoconf macros for compiling against boost
-dev-build/cmake 3.28.5 3.31.5 3.31.7-r1 3.31.8 4.0.3 4.0.4 4.1.0 4.1.1 9999: Cross platform Make
+dev-build/cmake 3.28.5 3.31.5 3.31.7-r1 3.31.8 4.0.4 4.1.1 9999: Cross platform Make
 dev-build/cmake-fedora 2.9.3: Provides cmake helper macros and targets for linux, especially fedora developers
+dev-build/corrosion 0.5.2: Marrying Rust and CMake - Easy Rust and C/C++ Integration!
 dev-build/dagger 0.9.8: ci/cd as code that runs anywhere
 dev-build/dolphin-plugins-makefileactions 25.04.3 25.08.1: Dolphin plugin for Makefile targets integration
 dev-build/gn 0.2122 0.2217 0.2227 0.2235 9999: GN is a meta-build system that generates build files for Ninja
@@ -3823,7 +3824,7 @@ dev-build/libtool 2.5.4 2.6.0 9999: A shared library tool for developers
 dev-build/mage 1.13.0 1.15.0: make/rake like tool using go
 dev-build/make 4.4.1-r100 4.4.1-r101 9999: Standard tool to compile source trees
 dev-build/melange 0.18.3: Build APK packages from source code using declarative pipelines
-dev-build/meson 1.1.1 1.2.3 1.3.2 1.4.2 1.5.2 1.6.1 1.7.2 1.8.3 1.8.4 1.9.0 9999: Open source build system
+dev-build/meson 1.1.1 1.2.3 1.3.2 1.4.2 1.5.2 1.6.1 1.7.2 1.8.3 1.8.4 1.9.0 1.9.1 9999: Open source build system
 dev-build/meson-format-array 0: Format shell expressions into a meson array
 dev-build/muon 0.2.0-r2 0.3.0 0.4.0: A meson-compatible build system
 dev-build/netsurf-buildsystem 1.10: Build system used for netsurf and its libraries
@@ -4031,7 +4032,7 @@ dev-db/spatialite-tools 5.0.1-r2: A collection of CLI tools supporting SpatiaLit
 dev-db/sqlcipher 4.6.1: Full Database Encryption for SQLite
 dev-db/sqlcl-bin 24.1.0.087.0929: Oracle SQLcl is the new SQL*Plus
 dev-db/sqldeveloper 23.1.1.345.2114: Oracle SQL Developer is a graphical tool for database development
-dev-db/sqlite 3.50.2 3.50.4 9999: SQL database engine
+dev-db/sqlite 3.50.4 9999: SQL database engine
 dev-db/sqlitebrowser 3.13.1_p20250502-r1 9999: Light GUI editor for SQLite databases
 dev-db/sqlitestudio 3.4.17: Powerful cross-platform SQLite database manager
 dev-db/sqlmap 1.9.5 1.9.8 1.9.9 9999: An automatic SQL injection and database takeover tool
@@ -4279,7 +4280,7 @@ dev-go/go-tools 0.28.0: Tools that support the Go programming language (godoc, e
 dev-go/go-tour 0_pre20200201: A Tour of Go
 dev-go/gocov 1.1.0: Coverage testing tool for The Go Programming Language
 dev-go/gogo-protobuf 1.3.2: Protocol Buffers for Go with Gadgets
-dev-go/golangci-lint 1.50.1-r1 1.55.2 1.56.2 1.59.1 1.61.0 1.64.6 1.64.7 2.1.0 2.1.2: Fast linters runner for Go
+dev-go/golangci-lint 1.50.1-r1 1.55.2 1.56.2 1.59.1 1.61.0 1.64.6 1.64.7 2.1.0 2.1.2 2.5.0: Fast linters runner for Go
 dev-go/gopls 0.18.1 0.19.0 0.19.1 0.20.0: "Go please" is the official Go language server
 dev-go/goversion 1.2.0-r1: Print version used to build Go executables
 dev-go/gox 1.0.1: A dead simple, no frills Go cross compile tool
@@ -5268,7 +5269,7 @@ dev-libs/aml 0.3.0 9999: Event timer executor loop
 dev-libs/angelscript 2.37.0 2.38.0: A flexible, cross-platform scripting library
 dev-libs/antlr-c 3.5.2-r3: The ANTLR3 C Runtime
 dev-libs/apache-arrow 20.0.0 21.0.0 9999: A cross-language development platform for in-memory data
-dev-libs/appstream 1.0.4-r1: Cross-distro effort for providing metadata for software in the Linux ecosystem
+dev-libs/appstream 1.0.4-r1 1.0.6: Cross-distro effort for providing metadata for software in the Linux ecosystem
 dev-libs/appstream-glib 0.8.2 0.8.3: Provides GObjects and helper methods to read and write AppStream metadata
 dev-libs/apr 1.7.4-r2 1.7.4-r3 1.7.5 1.7.6: Apache Portable Runtime Library
 dev-libs/apr-util 1.6.3: Apache Portable Runtime Utility Library
@@ -5396,10 +5397,10 @@ dev-libs/immer 0.8.1-r1: Library of persistent and immutable data structures wri
 dev-libs/inih 57-r1 58 59 60 62: inih (INI not invented here) simple .INI file parser
 dev-libs/iniparser 4.2.6: Free stand-alone ini file parsing library
 dev-libs/input-pad 1.0.99_pre20140916-r1: On-screen input pad to send characters with mouse
-dev-libs/intel-compute-runtime 24.35.30872.32-r2 25.31.34666.3: Intel Graphics Compute Runtime for oneAPI Level Zero and OpenCL Driver
-dev-libs/intel-metrics-discovery 1.14.181: A user mode library that provides access to GPU performance data
-dev-libs/intel-metrics-library 1.0.198: User mode driver helper library that provides access to GPU performance counters
-dev-libs/intel-vc-intrinsics 0.23.1: A set of new intrinsics on top of core LLVM IR instructions
+dev-libs/intel-compute-runtime 24.35.30872.32-r2 25.31.34666.3 25.35.35096.9: Intel Graphics Compute Runtime for oneAPI Level Zero and OpenCL Driver
+dev-libs/intel-metrics-discovery 1.14.181 1.14.182: A user mode library that provides access to GPU performance data
+dev-libs/intel-metrics-library 1.0.198 1.0.200: User mode driver helper library that provides access to GPU performance counters
+dev-libs/intel-vc-intrinsics 0.23.1 0.23.4: A set of new intrinsics on top of core LLVM IR instructions
 dev-libs/isa-l 2.31.1-r2: Intelligent Storage Acceleration Library
 dev-libs/isa-l_crypto 2.25.0: Intelligent Storage Acceleration Library - cryptographic components
 dev-libs/isl 0.26 0.27: A library for manipulating integer points bounded by linear constraints
@@ -5664,7 +5665,7 @@ dev-libs/marisa 0.2.6 9999: Matching Algorithm with Recursively Implemented Stor
 dev-libs/mathjax 2.7.7-r1 3.2.2-r2: JavaScript display engine for LaTeX, MathML and AsciiMath
 dev-libs/md4c 0.5.2: C Markdown parser. Fast, SAX-like interface, CommonMark Compliant.
 dev-libs/mdns 1.4.3: Public domain mDNS/DNS-SD library in C
-dev-libs/metee 6.0.0: Cross-platform access library for Intel CSME HECI interface
+dev-libs/metee 6.0.0 6.0.2: Cross-platform access library for Intel CSME HECI interface
 dev-libs/mimalloc 2.1.9 3.1.5: A compact general purpose allocator with excellent performance
 dev-libs/mimetic 0.9.8: C++ MIME library designed to be easy to use and integrate, fast and efficient
 dev-libs/miniaudio 0.11.15 0.11.21: Single file library for audio playback and capture
@@ -6026,7 +6027,7 @@ dev-ml/lwt_ssl 1.1.3 1.2.0: GLib integration for Lwt
 dev-ml/markup 1.0.3: Error-recovering streaming HTML5 and XML parsers
 dev-ml/mccs 1.1.18-r1 1.1.19: Multi Criteria CUDF Solver
 dev-ml/memtrace 0.2.3: Streaming client for OCaml's Memprof
-dev-ml/menhir 20240715: LR(1) parser generator for the OCaml language
+dev-ml/menhir 20240715 20250912: LR(1) parser generator for the OCaml language
 dev-ml/merlin 5.4.1 5.5: Context sensitive completion for OCaml in Vim and Emacs
 dev-ml/merlin-extend 0.6-r1 0.6.1 0.6.2: SDK to extend Merlin
 dev-ml/mew 0.1.0-r1: General modal editing engine generator
@@ -10868,7 +10869,7 @@ dev-util/idea-community 2025.2: A complete toolset for web, mobile and enterpris
 dev-util/imediff 1.1.2.1 3.4.0: 2-way/3-way merge tool (CLI, Ncurses)
 dev-util/include-what-you-use 0.23-r1: Find unused include directives in C/C++ programs
 dev-util/indent 2.2.13: Indent program source files
-dev-util/intel-graphics-compiler 1.0.17791.18-r1 2.16.0: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
+dev-util/intel-graphics-compiler 1.0.17791.18-r1 2.16.0 2.19.1: LLVM-based OpenCL compiler for OpenCL targetting Intel Gen graphics hardware
 dev-util/intel-graphics-system-controller 0.9.6: Intel graphics system controller firmware update library
 dev-util/intel-ocl-sdk 18.1.0.015-r1: Intel's implementation of the OpenCL standard
 dev-util/intltool 0.51.0-r3: Internationalization Tool Collection
@@ -13561,7 +13562,7 @@ media-libs/x264 0.0.20240513 9999: Free library for encoding X264/AVC streams
 media-libs/x265 3.6-r1 9999: Library for encoding video streams into the H.265/HEVC format
 media-libs/xine-lib 1.2.13-r3 1.2.13-r5 1.2.9999: Core libraries for Xine movie player
 media-libs/xvid 1.3.7-r2: High performance/quality MPEG-4 video de-/encoding solution
-media-libs/zimg 3.0.4 3.0.4-r1 9999: Scaling, colorspace conversion, and dithering library
+media-libs/zimg 3.0.4-r1 9999: Scaling, colorspace conversion, and dithering library
 media-libs/zint 2.15.0: Barcode encoding library supporting over 50 symbologies
 media-libs/zita-alsa-pcmi 0.6.1: Provides easy access to ALSA PCM devices
 media-libs/zita-convolver 4.0.3: C++ library implementing a real-time convolution matrix
@@ -14913,7 +14914,7 @@ net-libs/libgssglue 0.9: Exports a gssapi interface which calls other random gss
 net-libs/libhackrf 2023.01.1 2024.02.1 2024.02.1-r1 9999: library for communicating with HackRF SDR platform
 net-libs/libhtp 0.5.49: Security-aware parser for the HTTP protocol and the related bits and pieces
 net-libs/libhubbub 0.3.8: HTML5 compliant parsing library, written in C
-net-libs/libident 0.32-r1: A small library to interface to the Ident protocol server
+net-libs/libident 0.32-r1 0.32-r2: Small library to interface to the Ident protocol server
 net-libs/libiio 0.26-r2 0.26-r3 9999: Library for interfacing with IIO devices
 net-libs/libircclient 1.10-r1: Small but powerful library implementing the client-server IRC protocol
 net-libs/libiscsi 1.20.0 9999: iscsi client library and utilities
@@ -14977,7 +14978,7 @@ net-libs/libtlsrpt 0.5.0 9999: library to implement TLSRPT
 net-libs/libtorrent 0.13.8-r3 0.15.1 0.15.5 0.15.7 9999: BitTorrent library written in C++ for *nix
 net-libs/libtorrent-rasterbar 2.0.10: C++ BitTorrent implementation focusing on efficiency and scalability
 net-libs/libtrace 4.0.21 4.0.22 4.0.26 4.0.28: A library and tools for trace processing
-net-libs/libupnp 1.14.24: An Portable Open Source UPnP Development Kit
+net-libs/libupnp 1.14.24 1.14.25: An Portable Open Source UPnP Development Kit
 net-libs/libupnpp 1.0.2 1.0.3: The libupnpp C++ library wraps libupnp for easier use by upmpdcli and upplay
 net-libs/libvncserver 0.9.15-r1: library for creating vnc servers
 net-libs/libwebsockets 4.4.1-r1: A flexible pure-C library for implementing network protocols
@@ -15498,7 +15499,7 @@ net-p2p/mktorrent 1.1_p20210130-r1: Simple command line utility to create BitTor
 net-p2p/mldonkey 3.1.7-r4 3.2.1: Multi-network P2P application written in Ocaml, with Gtk, web & telnet interface
 net-p2p/ncdc 1.25: Lightweight direct connect client with a friendly ncurses interface
 net-p2p/nicotine+ 3.3.7 3.3.10: Graphical client for the Soulseek peer to peer network written in Python
-net-p2p/qbittorrent 5.0.3 5.0.4 5.0.5 9999: BitTorrent client in C++ and Qt
+net-p2p/qbittorrent 5.0.5 5.1.2 9999: BitTorrent client in C++ and Qt
 net-p2p/resilio-sync 2.7.3.1381 9999: Resilient, fast and scalable file synchronization tool
 net-p2p/retroshare 0.6.7-r4: Friend to Friend secure communication and sharing application
 net-p2p/rtorrent 0.9.8-r3 0.15.1 0.15.5 0.15.7 9999: BitTorrent Client using libtorrent
@@ -15579,8 +15580,8 @@ net-proxy/trojan 1.16.0-r3: An unidentifiable mechanism that helps you bypass GF
 net-proxy/tsocks 1.8_beta5-r9: Transparent SOCKS v4 proxying library
 net-proxy/wwwoffle 2.9j: Web caching proxy suitable for non-permanent Internet connections
 net-proxy/ziproxy 3.3.2: A forwarding, non-caching, compressing web proxy server
-net-voip/mumble 1.5.735-r1 9999: Mumble is an open source, low-latency, high quality voice chat software
-net-voip/murmur 1.5.735 9999: Mumble is an open source, low-latency, high quality voice chat software
+net-voip/mumble 1.5.735-r1 1.6.0_pre20250920 9999: Mumble is an open source, low-latency, high quality voice chat software
+net-voip/murmur 1.5.735 1.6.0_pre20250920 9999: Mumble is an open source, low-latency, high quality voice chat software
 net-voip/sipvicious 0.3.4-r1: SIPVicious is a SIP security package
 net-voip/umurmur 0.3.1: Minimalistic Murmur (Mumble server)
 net-voip/yate 6.2.0: The Yate AV Suite
@@ -16969,7 +16970,7 @@ sys-apps/colorized-logs 2.6 2.7: Tools for logs with ANSI color
 sys-apps/config-site 0 99999999: config.site to load dropins from config.site.d
 sys-apps/consolation 0.0.7: libinput based console mouse daemon
 sys-apps/conspy 1.16: Remote control for Linux virtual consoles
-sys-apps/coreutils 9.4 9.4-r1 9.5 9.6 9.7 9.7_p20250918 9999: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
+sys-apps/coreutils 9.4 9.4-r1 9.5 9.6 9.7 9.8 9999: Standard GNU utilities (chmod, cp, dd, ls, sort, tr, head, wc, who,...)
 sys-apps/cpint 2.5.3: Linux/390 Interface to z/VM's Control Program
 sys-apps/cpu-x 5.3.1 5.4.0: A Free software that gathers information on CPU, motherboard and more
 sys-apps/cpuid 20250513: Linux tool to dump x86 CPUID information about the CPUs
@@ -17218,7 +17219,7 @@ sys-apps/usbutils 016 017 018 018-r1: USB enumeration utilities
 sys-apps/usermode-utilities 20070815-r6: Tools for use with Usermode Linux virtual machines
 sys-apps/uswid 0.4.7: Pure-Python library and CLI tool for processing SBoM metadata
 sys-apps/utempter 0.5.5.6-r2: App that allows non-privileged apps to write utmp (login) info
-sys-apps/util-linux 2.40.4 2.41.1-r1 9999: Various useful Linux utilities
+sys-apps/util-linux 2.40.4 2.41.1-r1 2.41.2 9999: Various useful Linux utilities
 sys-apps/uutils-coreutils 0.1.0 9999: GNU coreutils rewritten in Rust
 sys-apps/uutils-findutils 0.8.0 9999: GNU findutils rewritten in Rust
 sys-apps/vbetool 1.2.2: Run real-mode video BIOS code to alter hw state (i.e. reinitialize video card)
@@ -17408,7 +17409,7 @@ sys-cluster/hpl 2.0-r4 2.3: Portable Implementation of the Linpack Benchmark for
 sys-cluster/hpx 1.11.0 9999: C++ runtime system for parallel and distributed applications
 sys-cluster/hubble 0.10.0 1.17.5: Network, Service & Security Observability for Kubernetes using eBPF
 sys-cluster/ipvsadm 1.31-r1: utility to administer the IP virtual server services
-sys-cluster/k9scli 0.32.4 0.40.10 0.50.6: terminal based UI to manage kubernetes clusters
+sys-cluster/k9scli 0.32.4 0.40.10 0.50.6 0.50.12: terminal based UI to manage kubernetes clusters
 sys-cluster/keepalived 2.2.7 2.2.8 2.3.3: A strong & robust keepalive facility to the Linux Virtual Server project
 sys-cluster/knem 1.1.4_p20250126 9999: High-Performance Intra-Node MPI Communication
 sys-cluster/kops 1.28.2 1.30.0: Kubernetes Operations
@@ -17613,8 +17614,8 @@ sys-fs/mtd-utils 2.1.6-r2 2.2.1-r1: MTD userspace tools (NFTL, JFFS2, NAND, FTL,
 sys-fs/mtools 4.0.46 4.0.47 4.0.48 4.0.49: Utilities to access MS-DOS disks from Unix without mounting them
 sys-fs/mtpfs 1.1-r6: A FUSE filesystem providing access to MTP devices
 sys-fs/multipath-tools 0.9.8-r1: Device mapper target autoconfig
-sys-fs/ncdu 1.21 1.22 2.8.2 2.9.1: NCurses Disk Usage
-sys-fs/ncdu-bin 2.8.1 2.9.1: NCurses Disk Usage
+sys-fs/ncdu 1.21 1.22 2.9.1: NCurses Disk Usage
+sys-fs/ncdu-bin 2.9.1: NCurses Disk Usage
 sys-fs/nilfs-utils 2.2.9: A New Implementation of a Log-structured File System for Linux
 sys-fs/ntfs3g 2022.10.3: Open source read-write NTFS driver that runs under FUSE
 sys-fs/progsreiserfs 0.3.1_rc8-r1: Library for accessing and manipulating reiserfs partitions
@@ -18142,8 +18143,8 @@ www-client/surf 2.1-r3 9999: A simple web browser based on WebKit/GTK+
 www-client/surfraw 2.3.0-r3 99999: A fast unix command line interface to WWW
 www-client/tangram 3.1 3.3: Web browser designed to organize and run Web applications
 www-client/uget 2.2.3 9999: Download manager using gtk+ and libcurl
-www-client/vivaldi 7.5.3735.66 7.5.3735.74: A browser for our friends
-www-client/vivaldi-snapshot 7.6.3794.4 7.6.3797.35 7.6.3797.37: A browser for our friends
+www-client/vivaldi 7.5.3735.74 7.6.3797.52: A browser for our friends
+www-client/vivaldi-snapshot 7.6.3797.37 7.7.3813.3: A browser for our friends
 www-client/w3m 0.5.3_p20230121 0.5.3_p20240916: Text based WWW browser, supports tables and frames
 www-client/w3mmee 0.3.2_p24-r13: A variant of w3m with support for multiple character encodings
 www-misc/awstats 7.8-r1: AWStats is short for Advanced Web Statistics
@@ -18434,7 +18435,7 @@ x11-misc/3dfm 1.0-r3: OpenGL-based 3D File Manager
 x11-misc/accessx 0951-r3: Interface to the XKEYBOARD extension in X11
 x11-misc/alacarte 3.52.0 3.56.0: Simple GNOME menu editor
 x11-misc/alock 1.0.0-r1: locks the local X display until a password is entered
-x11-misc/appmenu-gtk-module 24.05-r3: Application menu module for GTK
+x11-misc/appmenu-gtk-module 24.05-r3 25.04: Application menu module for GTK
 x11-misc/apwal 0.4.5-r4: A simple application launcher and combined editor
 x11-misc/arandr 0.1.11: Another XRandR GUI
 x11-misc/autocutsel 0.10.1: Synchronise the two copy/paste buffers mainly used by X applications
